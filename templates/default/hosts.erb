@@ -1,5 +1,5 @@
-127.0.0.1 localhost <%= node['hosts']['localhost_aliases'].join(" ") unless node['hosts']['localhost_aliases'].empty? %>
-<%= node['ipaddress'] %> <%= node['fqdn'] %> <%= node['hostname'] %>
+127.0.0.1 localhost
+<%= node['ipaddress'] %> <%= node['fqdn'] %> <%= node['hostname'] %> <%= node['hosts']['localhost_aliases'].join(' ') unless node['hosts']['localhost_aliases'].empty? %>
 
 <% node['hosts']['entries'].each do |ip, name| -%>
 <%= ip %> <%= name %>
