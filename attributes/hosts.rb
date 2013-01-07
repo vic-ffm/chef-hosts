@@ -1,2 +1,2 @@
-default['hosts']['localhost_aliases'] = []
+default['hosts']['aliases'] = []
 default['hosts']['entries'] = Mash.new
