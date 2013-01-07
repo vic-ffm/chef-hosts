@@ -21,4 +21,4 @@ Usage
 
 The following recipes provided:
 
-* `hosts::default` - Install the GlassFish binaries.
+* `hosts::default` - Configure the /etc/hosts file.
